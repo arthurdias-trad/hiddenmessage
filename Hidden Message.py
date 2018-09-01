@@ -41,7 +41,6 @@ while True:
         
 #Allow user to leave a message, save message in a list, hash message, display hash to be used as a key.        
 
-# Having some issues here with the messages saving letter by letter not string by string
 
     messages = []
 
