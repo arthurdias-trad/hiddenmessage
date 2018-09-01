@@ -1,9 +1,7 @@
 
 # coding: utf-8
 
-# coding: utf-8
-
-# In[4]:
+# In[8]:
 
 
 # Set the passcode the user needs to enter as their name to activate program.
@@ -41,23 +39,21 @@ while True:
         else:
             print("Sorry but we only deal in certainties, please enter either 'receive' or 'leave':D!")
         
-#Allow user to leave a message, save message in a varaible, hash message, display hash to be used as a key.        
-    
-    count = 0
+#Allow user to leave a message, save message in a list, hash message, display hash to be used as a key.        
+
+# Having some issues here with the messages saving letter by letter not string by string
+
+    messages = []
 
     if action.lower() == "leave":
         message = input("So what exactly is so important that you couldn't say it anywhere else? : ")
-        message = message[count]
+        messages += message
         message = ""
-        print(message[count])
+        print(messages[0])
         
         
         break
         
     
-    
-
-
-#
     
 
