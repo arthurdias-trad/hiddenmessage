@@ -47,7 +47,7 @@ while True:
 
     if action.lower() == "leave":
         message = input("So what exactly is so important that you couldn't say it anywhere else? : ")
-        messages += message
+        messages.append(message)
         message = ""
         print(messages[0])
         
