@@ -42,7 +42,7 @@ while True:
             print("Sorry but we only deal in certainties, please enter either 'receive' or 'leave':D!")
         
 #Allow user to leave a message, save message in a list, hash message, display hash to be used as a key.  
-
+#Write hashed message to a text file
 
     if action.lower() == "leave":
         message = input("So what exactly is so important that you couldn't say it anywhere else? : ")
